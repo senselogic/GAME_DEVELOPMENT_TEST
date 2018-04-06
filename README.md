@@ -16,8 +16,8 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
     *   https://assetstore.unity.com/packages/3d/characters/humanoids/mini-legion-grunt-handpainted-98187
     *   https://assetstore.unity.com/packages/3d/characters/humanoids/mini-legion-lich-handpainted-91497
     *   https://assetstore.unity.com/packages/3d/characters/humanoids/mini-legion-rock-golem-handpainted-94707
-    *   https://assetstore.unity.com/packages/vfx/particles/war-fx-5669
-    *   https://assetstore.unity.com/packages/vfx/particles/space-arcade-effects-free-102801
+    *   https://assetstore.unity.com/packages/vfx/particles/cartoon-fx-free-109565
+    *   https://assetstore.unity.com/packages/vfx/particles/mezanix-fx-free-65810
     *   https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563
     *   https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126
     *   https://assetstore.unity.com/packages/2d/fonts/bubble-font-free-version-24987
@@ -34,8 +34,8 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
     *   The game-won menu.
     *   The game-paused menu.
     *   The game-title screen.
-    *   The enemy minimap.
     *   The game-options screen.
+    *   The enemy minimap.
     *   The text localization.
 
 *   Make sure to use the programming conventions explained in the coding standard document
@@ -284,7 +284,7 @@ The primary game control device is an X360-like gamepad controller.
 
 ## Version
 
-0.9
+1.0
 
 ## Author
 
