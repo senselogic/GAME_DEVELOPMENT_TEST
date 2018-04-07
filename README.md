@@ -35,6 +35,8 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
     *   The game-paused menu.
     *   The game-title screen.
     *   The game-options screen.
+    *   The hero vertical aiming IK.
+    *   The hero foot height IK.
     *   The enemy minimap.
     *   The text localization.
 
@@ -197,13 +199,17 @@ The primary game control device is an X360-like gamepad controller.
 *   Walks or runs when the Move axis is used.
 *   Rotates to point his gun toward the hero camera target.
 *   Shoots laser rays with its gun toward the hero camera target when the Shoot button is used.
+*   Uses IK to aim vertically.
+*   Uses IK to make the feet touch the ground when they get below it.
 
 ### The **hero camera** :
 
 *   Aims roughly 0.5m above the hero head.
 *   Remains a few meters behind the hero character, 
     so that we can see his feet in the bottom of the screen when looking horizontally.
-*   Can turn at **180** degrees per second.
+*   Can turn laterally and vertically up to **120** degrees per second.
+*   Can look down at **-80** degrees.
+*   Can look up at **+80** degrees.
 *   Immediately gets closer to the hero if there is an obtacle between them.
 *   Quickly gets back to its default distance otherwise.
 *   Rotates when the Aim axis is used.
@@ -211,7 +217,7 @@ The primary game control device is an X360-like gamepad controller.
 ### The **laser ray** :
 
 *   Is a thin stretched capsule.
-*   Has a glowing particle effect.
+*   Has a glowing effect.
 *   Has a speed of **20** meters per second.
 *   Has a direct hit damage of **25**.
 *   Is shot from the gun tip toward what is pointed by the center of hero camera along its axis.
@@ -278,7 +284,7 @@ The primary game control device is an X360-like gamepad controller.
 ### The **lich fireball** :
 
 *   Is a small ball.
-*   Has flame particle effects.
+*   Has a flame particle effect.
 *   Has an initial speed of **10** meters per second.
 *   Has a direct hit damage of **20**.
 
