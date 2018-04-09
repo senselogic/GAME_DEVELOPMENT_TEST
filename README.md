@@ -35,15 +35,15 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
     *   The game-paused menu.
     *   The game-title screen.
     *   The game-options screen.
-    *   The hero vertical aiming IK.
-    *   The hero feet height IK.
     *   The enemy minimap.
+    *   The hero aiming IK.
+    *   The hero feet IK.
     *   The text localization.
 
 *   Do your best to apply the programming conventions explained in the coding standard document, especially the following rules :
-    *   Write types in `UPPER_CASE` : TANK_SHELL.
-    *   Write type members in `CamelCase` : Tank.ShootShell().
-    *   Write local variables and method parameters in `snake_case` : enemy_index. 
+    *   Write types in **UPPER_CASE** : TANK_SHELL.
+    *   Write type members in **CamelCase** : Tank.ShootShell().
+    *   Write local variables and method parameters in **snake_case** : enemy_index. 
     *   Align braces vertically.
     *   Don't use acronyms, abbreviations or single-letter variables.
 
