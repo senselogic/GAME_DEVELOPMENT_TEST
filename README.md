@@ -69,16 +69,16 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 The primary game control device is an X360-like gamepad controller.
 
 *   Gameplay-mode :
-    *   **Right-stick up/down** : Aim Up/Down axis.
-    *   **Right-stick left/right** : Aim Left/Right axis.
-    *   **Left-stick up/down** : Move Up/Down axis.
-    *   **Left-stick left/right** : Move Left/Right axis.
-    *   **Right trigger** : Shoot button.
-    *   **Start button** : Pause button.
+    *   Left stick up/down : **Move Up/Down axis**.
+    *   Left stick left/right : **Move Left/Right axis**.
+    *   Right stick up/down : **Aim Up/Down axis**.
+    *   Right stick left/right : **Aim Left/Right axis**.
+    *   Right trigger : **Shoot button**.
+    *   Start button : **Pause button**.
 *   Menu-mode :
-    *   **Left-stick up/down** : Move Up/Down axis.
-    *   **Lower button (A)** : Select button.
-    *   **Right button (B)** : Exit button.
+    *   Left stick up/down : **Move Up/Down axis**.
+    *   Lower face button (A) : **Select button**.
+    *   Right face button (B) : **Exit button**.
 
 ## Game entities
 
