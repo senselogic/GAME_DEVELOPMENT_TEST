@@ -17,7 +17,7 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
     *   https://assetstore.unity.com/packages/3d/characters/humanoids/mini-legion-lich-handpainted-91497
     *   https://assetstore.unity.com/packages/3d/characters/humanoids/mini-legion-rock-golem-handpainted-94707
     *   https://assetstore.unity.com/packages/vfx/particles/cartoon-fx-free-109565
-    *   https://assetstore.unity.com/packages/vfx/particles/mezanix-fx-free-65810
+    *   https://assetstore.unity.com/packages/vfx/particles/war-fx-5669
     *   https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563
     *   https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126
     *   https://assetstore.unity.com/packages/2d/fonts/bubble-font-free-version-24987
