@@ -170,7 +170,7 @@ The primary game control device is an X360-like gamepad controller.
 *   Is surrounded by a large sea plane at zero height.
 *   Is the default landscape of the "Fantasy Landscape" asset 
     with its outermost borders lowered to remain under the sea surface.
-*   Uses the meters as the distance unit.
+*   Uses the meter as the distance unit.
 *   Has **20** footmen, **10** grunts, **5** golems, **5** liches and the hero, spread over its land surface.
 
 ### The **character** :
