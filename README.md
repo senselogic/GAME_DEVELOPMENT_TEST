@@ -36,8 +36,6 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
     *   The game-title screen.
     *   The game-options screen.
     *   The enemy minimap.
-    *   The hero aiming IK.
-    *   The hero feet IK.
     *   The text localization.
 
 *   Do your best to apply the programming conventions explained in the coding standard document, especially the following rules :
@@ -202,8 +200,6 @@ The primary game control device is an X360-like gamepad controller.
 *   Walks or runs when the Move axis is used.
 *   Rotates to point his gun toward the hero camera target.
 *   Shoots laser rays with its gun toward the hero camera target when the Shoot button is used.
-*   Uses IK to aim vertically.
-*   Uses IK to make the feet touch the ground when they get below it.
 
 ### The **hero camera** :
 
