@@ -42,8 +42,10 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
     *   Write types in **UPPER_CASE** : TANK_SHELL.
     *   Write type members in **CamelCase** : Tank.ShootShell().
     *   Write local variables and method parameters in **snake_case** : enemy_index. 
-    *   Align braces vertically.
     *   Don't use acronyms, abbreviations or single-letter variables.
+    *   Include the class name in the attribute and variable names.
+    *   Align braces vertically.
+    *   Use braces even for single statement blocks.
 
 *   On the last evening, simply send us back a pack or archive of your work in progress using a file transfer web service like **wetransfer.com** or **transferbigfiles.com**.
 
