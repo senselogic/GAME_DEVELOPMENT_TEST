@@ -39,9 +39,9 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
     *   The text localization.
 
 *   Do your best to apply the programming conventions explained in the coding standard document, especially the following rules :
-    *   Write types in **UPPER_CASE** : TANK_SHELL.
-    *   Write type members in **CamelCase** : Tank.ShootShell().
-    *   Write local variables and method parameters in **snake_case** : enemy_index. 
+    *   Write your types in **UPPER_CASE** : TANK_SHELL.
+    *   Write your type members in **PascalCase** : Tank.ShootShell().
+    *   Write your local variables and method parameters in **snake_case** : enemy_index. 
     *   Don't use acronyms, abbreviations or single-letter variables.
     *   Include the class name in the attribute and variable names.
     *   Align braces vertically.
