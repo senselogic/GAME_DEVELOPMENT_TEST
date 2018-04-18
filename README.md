@@ -28,7 +28,7 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
 
 *   Try to implement as much as you can of this game in maximum two days, preferably in the following order :
 
-    *   The hero animation, overlay, aiming, shooting, impact and death.
+    *   The hero camera, animation, overlay, aiming, shooting, impact and death.
     *   The footman/grunt/golem/lich animation, navigation, aiming, attack, impact and death.
     *   The game-lost menu.
     *   The game-won menu.
@@ -69,14 +69,14 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 The primary game control device is an X360-like gamepad controller.
 
 *   Gameplay-mode :
-    *   Left stick up/down : **Move Up/Down axis**.
+    *   Left stick down/up : **Move Down/Up axis**.
     *   Left stick left/right : **Move Left/Right axis**.
-    *   Right stick up/down : **Aim Up/Down axis**.
+    *   Right stick down/up : **Aim Down/Up axis**.
     *   Right stick left/right : **Aim Left/Right axis**.
     *   Right trigger : **Shoot button**.
     *   Start button : **Pause button**.
 *   Menu-mode :
-    *   Left stick up/down : **Move Up/Down axis**.
+    *   Left stick down/up : **Move Down/Up axis**.
     *   Lower face button (A) : **Select button**.
     *   Right face button (B) : **Exit button**.
 
@@ -94,7 +94,7 @@ The primary game control device is an X360-like gamepad controller.
 ### The **game menu** :
 
 *   Has a title.
-*   Highlights the active option, which can be chosen with the Move Up/Down axis.
+*   Highlights the active option, which can be chosen with the Move Down/Up axis.
 *   Selects the highlighted option with the **Select** button.
 *   Can be left by pressing the **Exit** button.
 
