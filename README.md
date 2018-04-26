@@ -51,9 +51,9 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
 
 ## Description
 
-The player controls a futuristic hero equipped with a fully automatic laser gun.
+The player uses a gamepad to control a futuristic hero equipped with a fully automatic laser gun.
 
-He must survive in a forestial area with many aggressive enemies.
+The hero must survive in a forestial area with many aggressive enemies.
 
 They can be of four different types :
 
@@ -63,22 +63,6 @@ They can be of four different types :
 *   The lich, a vicious witch shooting fireballs with her magical wand.
 
 To win the game, the hero must eliminate all the enemies with his gun in only 3 minutes, without being killed.
-
-## Game controls
-
-The primary game control device is an X360-like gamepad controller.
-
-*   Gameplay-mode :
-    *   Left stick down/up : **Move Down/Up axis**.
-    *   Left stick left/right : **Move Left/Right axis**.
-    *   Right stick down/up : **Aim Down/Up axis**.
-    *   Right stick left/right : **Aim Left/Right axis**.
-    *   Right trigger : **Shoot button**.
-    *   Start button : **Pause button**.
-*   Menu-mode :
-    *   Left stick down/up : **Move Down/Up axis**.
-    *   Lower face button (A) : **Select button**.
-    *   Right face button (B) : **Exit button**.
 
 ## Game entities
 
@@ -90,6 +74,23 @@ The primary game control device is an X360-like gamepad controller.
 *   Has a hero.
 *   Has a camera.
 *   Has a camera overlay.
+
+### The **game input** :
+
+*   Provides the following controls in Gameplay-mode :
+
+    *   Left stick down/up : **Move Down/Up axis**.
+    *   Left stick left/right : **Move Left/Right axis**.
+    *   Right stick down/up : **Aim Down/Up axis**.
+    *   Right stick left/right : **Aim Left/Right axis**.
+    *   Right trigger : **Shoot button**.
+    *   Start button : **Pause button**.
+    
+*   Provides the following controls in Menu-mode :
+
+    *   Left stick down/up : **Move Down/Up axis**.
+    *   Lower face button (A) : **Select button**.
+    *   Right face button (B) : **Exit button**.
 
 ### The **game menu** :
 
@@ -177,7 +178,7 @@ The primary game control device is an X360-like gamepad controller.
 
 *   Has a state
 *   Can **stand** idle.
-*   Can **turn** (without animation).
+*   Can **turn** at **120** degrees per second (without animation).
 *   Can **walk** or **run**, more or less quickly, depending on its current ground speed.
 *   Can **attack** with a hitting weapon, a shooting weapon or his fists, depending on its own abilities.
 *   Can **get hit**.
@@ -197,7 +198,7 @@ The primary game control device is an X360-like gamepad controller.
 *   Is **2** meters tall.
 *   Has an initial health of **100**.
 *   Has an initial score of **0**, which is incremented by the initial health of the enemies he kills.
-*   Can run at **6** meters per second.
+*   Can run at **4** meters per second.
 *   Can shoot several laser rays per second.
 *   Walks or runs when the Move axis is used.
 *   Rotates to point his gun toward the hero camera target.
@@ -208,9 +209,9 @@ The primary game control device is an X360-like gamepad controller.
 *   Aims roughly 0.5m above the hero head.
 *   Remains a few meters behind the hero character, 
     so that we can see his feet in the bottom of the screen when looking horizontally.
-*   Can turn laterally and vertically up to **120** degrees per second.
-*   Can look down at **-80** degrees.
-*   Can look up at **+80** degrees.
+*   Can turn laterally and vertically at **120** degrees per second.
+*   Can look down at **-30** degrees.
+*   Can look up at **+30** degrees.
 *   Immediately gets closer to the hero if there is an obtacle between them.
 *   Quickly gets back to its default distance otherwise.
 *   Rotates when the Aim axis is used.
@@ -242,14 +243,14 @@ The primary game control device is an X360-like gamepad controller.
 ### The **enemy minimap** :
 
 *   Has a circular shape.
-*   Shows the enemies within a 50 meters radius around the player as dots.
-*   Shows the farther enemies as small triangles pointing outside the minimap from its edge.
+*   Shows the active enemies within a 50 meters radius around the player.
+*   Shows the farther active enemies as small triangles pointing outside the minimap from its edge.
 
 ### The **footman** :
 
 *   Is an enemy.
 *   Has an initial health of **50**.
-*   Is **1** meters tall.
+*   Is **1.5** meters tall.
 *   Can run at **2** meters per second.
 *   Can hit the hero with a damage of **25** using his spike.
 *   Attacks the hero only when it's closer than **2** meters.
@@ -259,7 +260,7 @@ The primary game control device is an X360-like gamepad controller.
 *   Is an enemy.
 *   Has an initial health of **100**.
 *   Is **2** meters tall.
-*   Can run at **4** meters per second.
+*   Can run at **3** meters per second.
 *   Can hit the hero with a damage of **50** using his axe.
 *   Attacks the hero only when it's closer than **2** meters.
 
@@ -268,7 +269,7 @@ The primary game control device is an X360-like gamepad controller.
 *   Is an enemy.
 *   Has an initial health of **200**.
 *   Is **3** meters tall.
-*   Can run at **2** meters per second.
+*   Can walk at **2** meters per second.
 *   Can hit the hero with a damage of **100** using his fists.
 *   Attacks the hero only when it's closer than **2** meters.
 
