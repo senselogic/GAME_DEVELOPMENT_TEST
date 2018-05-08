@@ -6,7 +6,7 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
 
 *   Carefully read the game specification and the coding standard.
 
-*   Create a **Unity Test** 3D project in **Unity 2017.3**.
+*   Create a **Unity Test** 3D project in the most recent **Unity 2017**.
 
 *   Import the following assets (and nothing else) :
 
@@ -69,11 +69,16 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 ### The **game** :
 
 *   Has a state.
+
+### The **game level** :
+
+*   Has a state.
 *   Has a maximum duration.
+*   Has a landscape.
 *   Has an enemy list.
 *   Has a hero.
-*   Has a camera.
-*   Has a camera overlay.
+*   Has a hero spawn.
+*   Has a hero camera.
 
 ### The **game input** :
 
@@ -202,7 +207,7 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 *   Can shoot several laser rays per second.
 *   Walks or runs when the Move axis is used.
 *   Rotates to point his gun toward the hero camera target.
-*   Shoots laser rays with its gun toward the hero camera target when the Shoot button is used.
+*   Has a laser gun.
 
 ### The **hero camera** :
 
@@ -210,17 +215,21 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 *   Remains a few meters behind the hero character, 
     so that we can see his feet in the bottom of the screen when looking horizontally.
 *   Can turn laterally and vertically at **120** degrees per second.
-*   Can look down at **-30** degrees.
-*   Can look up at **+30** degrees.
+*   Can look down at **-5** degrees.
+*   Can look up at **+10** degrees.
 *   Immediately gets closer to the hero if there is an obtacle between them.
 *   Quickly gets back to its default distance otherwise.
 *   Rotates when the Aim axis is used.
+
+### The **laser gun** :
+
+*   Shoots laser rays 10 times per second toward the hero camera target when the Shoot button is used.
 
 ### The **laser ray** :
 
 *   Is a thin stretched capsule.
 *   Has a glowing effect.
-*   Has a speed of **20** meters per second.
+*   Has a speed of **50** meters per second.
 *   Has a direct hit damage of **25**.
 *   Is shot from the gun tip toward what is pointed by the center of hero camera along its axis.
 
@@ -235,7 +244,7 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 *   Is a character.
 *   Has an energy bar over its head when its close enough from the hero.
 *   Can't hurt the other enemies.
-*   Can turn at **180** degrees per second.
+*   Can turn at **120** degrees per second.
 *   Runs toward the hero when it's in front of him and closer than **50** meters, or if the hero hits him.
 *   Strafes sideways when the hero aims directly at him.
 *   Randomly attacks the hero when it's close enough, at a maximum frequency of once per **4** seconds.
