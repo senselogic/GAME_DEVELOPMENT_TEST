@@ -62,7 +62,7 @@ They can be of four different types :
 *   The footman, a small knight holding a spear.
 *   The grunt, a fierce goblin holding an axe.
 *   The golem, a rock creature with deadly fists.
-*   The lich, a vicious witch shooting fireballs with her magical wand.
+*   The lich, an undead magician shooting fireballs with his staff.
 
 To win the game, the hero must eliminate all the enemies with his gun in only 3 minutes, without being killed.
 
