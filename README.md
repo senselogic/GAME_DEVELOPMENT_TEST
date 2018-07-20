@@ -6,7 +6,9 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
 
 *   Carefully read the game specification and the coding standard.
 
-*   Create a **Unity Test** 3D project in the most recent **Unity 2017**.
+*   Install the lastest stable version of [**UNITY**](https://unity3d.com/fr/get-unity/download).
+
+*   Create a **Unity Test** 3D project.
 
 *   Import the following assets (and nothing else) :
 
@@ -41,7 +43,7 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
 *   Do your best to apply the programming conventions explained in the coding standard document, especially the following rules :
     *   Write your types in **UPPER_CASE** : TANK_SHELL.
     *   Write your type members in **PascalCase** : Tank.ShootShell().
-    *   Write your local variables and method parameters in **snake_case** : enemy_index. 
+    *   Write your local variables and method parameters in **snake_case** : enemy_index.
     *   Don't use acronyms, abbreviations or single-letter variables.
     *   Include the class name in the attribute and variable names.
     *   Align braces vertically.
@@ -57,7 +59,7 @@ The hero must survive in a forestial area with many aggressive enemies.
 
 They can be of four different types :
 
-*   The footman, a small knight holding a spike.
+*   The footman, a small knight holding a spear.
 *   The grunt, a fierce goblin holding an axe.
 *   The golem, a rock creature with deadly fists.
 *   The lich, a vicious witch shooting fireballs with her magical wand.
@@ -90,7 +92,7 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
     *   Right stick left/right : **Aim Left/Right axis**.
     *   Right trigger : **Shoot button**.
     *   Start button : **Pause button**.
-    
+
 *   Provides the following controls in Menu-mode :
 
     *   Left stick down/up : **Move Down/Up axis**.
@@ -165,7 +167,7 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 ### The **game-played overlay** :
 
 *   Has a small "+" character in its center.
-*   Has a temporary countdown timer starting at **5** seconds in its center, 
+*   Has a temporary countdown timer starting at **5** seconds in its center,
 *   Has a score counter starting at **0** near the middle of the upper edge.
 *   Has a time counter starting at **3:00** near the upper left corner.
 *   Has a health bar (or counter) near the lower left corner.
@@ -174,7 +176,7 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 ### The **island** :
 
 *   Is surrounded by a large sea plane at zero height.
-*   Is the default landscape of the "Fantasy Landscape" asset 
+*   Is the default landscape of the "Fantasy Landscape" asset
     with its outermost borders lowered to remain under the sea surface.
 *   Uses the meter as the distance unit.
 *   Has **20** footmen, **10** grunts, **5** golems, **5** liches and the hero, spread over its land surface.
@@ -204,7 +206,7 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 *   Has an initial health of **100**.
 *   Has an initial score of **0**, which is incremented by the initial health of the enemies he kills.
 *   Can run at **4** meters per second.
-*   Can shoot several laser rays per second.
+*   Can hit enemies using his laser gun ray.
 *   Walks or runs when the Move axis is used.
 *   Rotates to point his gun toward the hero camera target.
 *   Has a laser gun.
@@ -212,7 +214,7 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 ### The **hero camera** :
 
 *   Aims roughly 0.5m above the hero head.
-*   Remains a few meters behind the hero character, 
+*   Remains a few meters behind the hero character,
     so that we can see his feet in the bottom of the screen when looking horizontally.
 *   Can turn laterally and vertically at **120** degrees per second.
 *   Can look down at **-5** degrees.
@@ -221,16 +223,16 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 *   Quickly gets back to its default distance otherwise.
 *   Rotates when the Aim axis is used.
 
-### The **laser gun** :
+### The **hero laser gun muzzle** :
 
-*   Shoots laser rays 10 times per second toward the hero camera target when the Shoot button is used.
+*   Can shoot a laser ray 5 times per second toward the hero camera target when the Shoot button is used.
 
-### The **laser ray** :
+### The **hero laser ray** :
 
 *   Is a thin stretched capsule.
 *   Has a glowing effect.
 *   Has a speed of **50** meters per second.
-*   Has a direct hit damage of **25**.
+*   Has a direct hit damage of **10** on enemies once per shot.
 *   Is shot from the gun tip toward what is pointed by the center of hero camera along its axis.
 
 ### The **hero spawn** :
@@ -261,8 +263,11 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 *   Has an initial health of **50**.
 *   Is **1.5** meters tall.
 *   Can run at **2** meters per second.
-*   Can hit the hero with a damage of **25** using his spike.
 *   Attacks the hero only when it's closer than **2** meters.
+
+### The **footman spear tip** :
+
+*   Has a direct damage of **25** on the hero once per attack.
 
 ### The **grunt** :
 
@@ -270,8 +275,12 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 *   Has an initial health of **100**.
 *   Is **2** meters tall.
 *   Can run at **3** meters per second.
-*   Can hit the hero with a damage of **50** using his axe.
+*   Can hit the hero with his axe blade.
 *   Attacks the hero only when it's closer than **2** meters.
+
+### The **grunt axe blade** :
+
+*   Has a direct damage of **50** on the hero once per attack.
 
 ### The **golem** :
 
@@ -279,8 +288,12 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 *   Has an initial health of **200**.
 *   Is **3** meters tall.
 *   Can walk at **2** meters per second.
-*   Can hit the hero with a damage of **100** using his fists.
+*   Can hit the hero using his fists.
 *   Attacks the hero only when it's closer than **2** meters.
+
+### The **golem fist** :
+
+*   Has a direct damage of **100** on the hero once per attack.
 
 ### The **lich** :
 
@@ -288,20 +301,24 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 *   Has an initial health of **75**.
 *   Is **1.5** meters tall.
 *   Can run at **2** meters per second.
-*   Can hit the hero with a damage of **50** using his fireball.
+*   Can hit the hero using his staff fireball.
 *   Attacks the hero only when it's closer than **2** meters.
 *   Aims a bit in front of the hero, based on its current speed and direction.
+
+### The **lich staff tip** :
+
+*   Can shoot a fireball every 5 seconds.
 
 ### The **lich fireball** :
 
 *   Is a small ball.
 *   Has a flame particle effect.
 *   Has an initial speed of **10** meters per second.
-*   Has a direct hit damage of **20**.
+*   Has a direct hit damage of **20** on the hero once per shot.
 
 ## Version
 
-1.0
+1.1
 
 ## Author
 
