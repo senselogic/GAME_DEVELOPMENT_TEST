@@ -19,13 +19,13 @@ Minimalistic third person shooter game evaluating Unity gameplay and UI implemen
     *   https://assetstore.unity.com/packages/3d/characters/humanoids/mini-legion-lich-handpainted-91497
     *   https://assetstore.unity.com/packages/3d/characters/humanoids/mini-legion-rock-golem-handpainted-94707
     *   https://assetstore.unity.com/packages/vfx/particles/cartoon-fx-free-109565
-    *   https://assetstore.unity.com/packages/vfx/particles/war-fx-5669
     *   https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563
     *   https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126
     *   https://assetstore.unity.com/packages/2d/fonts/bubble-font-free-version-24987
     *   https://assetstore.unity.com/packages/audio/music/six-styles-of-bgm-35941
     *   https://assetstore.unity.com/packages/audio/sound-fx/fantasy-sfx-32833
-    *   https://assetstore.unity.com/packages/audio/sound-fx/weapons/futuristic-weapons-set-15644
+    *   https://assetstore.unity.com/packages/audio/sound-fx/horror-sfx-32834
+    *   https://assetstore.unity.com/packages/audio/sound-fx/sci-fi-sfx-32830
     *   https://assetstore.unity.com/packages/audio/sound-fx/foley/fantasy-sfx-for-particle-distort-texture-effect-library-42146
 
 *   Try to implement as much as you can of this game in maximum two days, preferably in the following order :
