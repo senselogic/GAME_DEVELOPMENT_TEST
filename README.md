@@ -1,6 +1,6 @@
 # Game Development Test
 
-Simple game evaluating Unity programming skills.
+Simple game evaluating Unity development skills.
 
 [![](https://img.youtube.com/vi/xqOMwkJBuXE/0.jpg)](https://www.youtube.com/watch?v=xqOMwkJBuXE)
 
