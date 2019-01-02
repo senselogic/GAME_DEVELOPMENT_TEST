@@ -1,5 +1,9 @@
 # Game Development Test
 
+Simple game evaluating Unity game development skills.
+
+[![](https://img.youtube.com/vi/xqOMwkJBuXE/0.jpg)](https://www.youtube.com/watch?v=xqOMwkJBuXE)
+
 ## Instructions
 
 *   Carefully read the game specification and the coding standard.
@@ -285,10 +289,6 @@ To win the game, the hero must eliminate all the enemies with his gun in only 3 
 *   Has a flame particle effect.
 *   Has an initial speed of **10** meters per second.
 *   Has a direct damage of **25** on the hero once per shot.
-
-### Sample video
-
-[![](https://img.youtube.com/vi/xqOMwkJBuXE/0.jpg)](https://www.youtube.com/watch?v=xqOMwkJBuXE)
 
 ## Version
 
