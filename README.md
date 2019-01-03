@@ -1,6 +1,6 @@
-# Game Development Test
+# Unite
 
-Simple game evaluating Unity development skills.
+Unity test.
 
 [![](https://img.youtube.com/vi/xqOMwkJBuXE/0.jpg)](https://www.youtube.com/watch?v=xqOMwkJBuXE)
 
@@ -8,7 +8,7 @@ Simple game evaluating Unity development skills.
 
 *   Carefully read the game specification and the coding standard.
 *   Install the lastest stable version of [**Unity**](https://unity3d.com/fr/get-unity/download).
-*   Create a **GameDevelopmentTest** 3D project.
+*   Create a **Unite** 3D project.
 *   Import the following assets (and nothing else) :
     *   https://assetstore.unity.com/packages/3d/environments/fantasy-landscape-103573
     *   https://assetstore.unity.com/packages/3d/characters/humanoids/sci-fi-hero-handpainted-demo-106154
@@ -300,4 +300,4 @@ Eric Pelzer (ecstatic.coder@gmail.com).
 
 ## License
 
-Game Development Test is licensed under the Creative Commons Attribution-NonCommercial 4.0 International.
+Unite is licensed under the Creative Commons Attribution-NonCommercial 4.0 International.
