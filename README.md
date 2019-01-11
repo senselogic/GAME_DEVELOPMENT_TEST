@@ -62,7 +62,7 @@ They can be of four different types :
 *   The golem, a rock creature with deadly fists.
 *   The lich, an undead magician shooting fireballs with his staff.
 
-To win the game, the hero must eliminate all the enemies with his gun in only 3 minutes, without being killed.
+To win the game, the hero must reach an elimination score of 1000 points in maximum 3 minutes, without being killed.
 
 ## Game entities
 
