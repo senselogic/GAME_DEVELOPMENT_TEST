@@ -1,3 +1,5 @@
+![](https://github.com/senselogic/UNITE/blob/master/UNITE/core.png)
+
 # Unite
 
 Unity test.
@@ -300,4 +302,6 @@ Eric Pelzer (ecstatic.coder@gmail.com).
 
 ## License
 
-Unite is licensed under the Creative Commons Attribution-NonCommercial 4.0 International.
+This project is licensed under the GNU Lesser General Public License version 3.
+
+See the [LICENSE.md](LICENSE.md) file for details.
