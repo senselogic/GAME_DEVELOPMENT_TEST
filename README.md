@@ -2,7 +2,7 @@
 
 # Unite
 
-Unity test.
+Unity development skill test.
 
 [![](https://img.youtube.com/vi/xqOMwkJBuXE/0.jpg)](https://www.youtube.com/watch?v=xqOMwkJBuXE)
 
