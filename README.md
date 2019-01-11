@@ -191,7 +191,7 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 
 *   Is a character.
 *   Is **2** meters tall.
-*   Has an initial health of **100**.
+*   Has an initial health of **100** points.
 *   Has an initial score of **0**, which is incremented by the initial health of the enemies he kills.
 *   Can walk forward and backward at **4.5** meters per second.
 *   Can walk sideways at **3** meters per second.
@@ -220,7 +220,7 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 
 *   Is a thin stretched capsule.
 *   Has a speed of **50** meters per second.
-*   Has a direct damage of **10** on enemies once per shot.
+*   Has a direct damage of **10** health points on enemies once per shot.
 *   Is shot from the gun tip toward what is pointed by the center of hero camera along its axis.
 
 ### The enemy
@@ -244,40 +244,40 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 ### The footman
 
 *   Is an enemy.
-*   Has an initial health of **50**.
+*   Has an initial health of **50** points.
 *   Can walk forward at **4.5** meters per second.
 *   Can hit the hero with his spear.
 
 ### The footman spear tip
 
-*   Has a direct damage of **100** on the hero once per attack.
+*   Has a direct damage of **100** health points on the hero once per attack.
 
 ### The grunt
 
 *   Is an enemy.
-*   Has an initial health of **100**.
+*   Has an initial health of **100** points.
 *   Can walk forward at **4.5** meters per second.
 *   Can hit the hero with his axe blade.
 
 ### The grunt axe blade
 
-*   Has a direct damage of **100** on the hero once per attack.
+*   Has a direct damage of **100** health points on the hero once per attack.
 
 ### The golem
 
 *   Is an enemy.
-*   Has an initial health of **200**.
+*   Has an initial health of **200** points.
 *   Can walk at **2** meters per second.
 *   Can hit the hero using his fists.
 
 ### The golem fist
 
-*   Has a direct damage of **100** on the hero once per attack.
+*   Has a direct damage of **100** health points on the hero once per attack.
 
 ### The lich
 
 *   Is an enemy.
-*   Has an initial health of **75**.
+*   Has an initial health of **75** points.
 *   Can walk forward at **4.5** meters per second.
 *   Can hit the hero using his staff fireball.
 
@@ -290,7 +290,7 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 *   Has a diameter of **0.5** meters.
 *   Has a flame particle effect.
 *   Has an initial speed of **10** meters per second.
-*   Has a direct damage of **25** on the hero once per shot.
+*   Has a direct damage of **25** health points on the hero once per shot.
 
 ## Version
 
