@@ -24,7 +24,7 @@
    inkscape:export-ydpi="90"><metadata
      id="metadata67"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs65" /><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -39,8 +39,8 @@
      id="namedview63"
      showgrid="false"
      inkscape:zoom="0.23046876"
-     inkscape:cx="-2335.033"
-     inkscape:cy="-80.602541"
+     inkscape:cx="-3517.4058"
+     inkscape:cy="-89.280507"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -85,7 +85,7 @@
      style="display:inline"
      transform="translate(50.000088,86.600916)"><text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:73.86244965px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff4444;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:73.86244965px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff914e;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="163.60951"
        y="2763.9258"
        id="text4236"
@@ -95,9 +95,11 @@
          id="tspan4238"
          x="163.60951"
          y="2763.9258"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1154.10095215px;font-family:Bitsumishi;-inkscape-font-specification:Bitsumishi;fill:#ff4444;fill-opacity:1">U<tspan
-   style="fill:#4765ff;fill-opacity:1"
-   id="tspan4191">NITE</tspan></tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1154.10095215px;font-family:Bitsumishi;-inkscape-font-specification:Bitsumishi;fill:#ff914e;fill-opacity:1;"><tspan
+           style="fill:#ff8036;fill-opacity:1"
+           id="tspan4158">U</tspan><tspan
+           style="fill:#323232;fill-opacity:1"
+           id="tspan4191">NITE</tspan></tspan></text>
 </g><g
      id="g33"
      transform="translate(-8.2728344,3022.3729)" /><g
