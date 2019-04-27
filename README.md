@@ -1,4 +1,4 @@
-![](https://github.com/senselogic/UNITE/blob/master/LOGO/unite.png)
+![](LOGO/unite.png)
 
 # Unite
 
