@@ -8,10 +8,11 @@ Unity game development test.
 
 ## Instructions
 
-*   Carefully read the game specification and the coding standard.
-*   Install the lastest stable version of [**Unity**](https://unity3d.com/fr/get-unity/download).
+*   Watch the [**reference video**](https://www.youtube.com/watch?v=xqOMwkJBuXE).
+*   Carefully read the game specification and the [**coding standard**](https://github.com/senselogic/KODA).
+*   Install the lastest stable version of [**Unity**](https://unity3d.com/fr/get-unity/download) for Windows.
 *   Create a **Unite** 3D project.
-*   Import the following assets (and nothing else) :
+*   Download and import the following assets (and nothing else) :
     *   https://assetstore.unity.com/packages/3d/environments/fantasy-landscape-103573
     *   https://assetstore.unity.com/packages/3d/characters/humanoids/sci-fi-hero-handpainted-demo-106154
     *   https://assetstore.unity.com/packages/3d/characters/humanoids/mini-legion-footman-handpainted-86576
@@ -28,18 +29,18 @@ Unity game development test.
     *   https://assetstore.unity.com/packages/audio/sound-fx/sci-fi-sfx-32830
     *   https://assetstore.unity.com/packages/audio/sound-fx/foley/fantasy-sfx-for-particle-distort-texture-effect-library-42146
 *   Try to implement as much as you can of this game in maximum two days, preferably in the following order :
-    *   The hero camera
+    *   The hero camera.
     *   The hero aiming, shooting and death.
     *   The footman/grunt/golem/lich patrolling, chasing, attack and death.
-    *   The level-played panel
-    *   The level-loaded panel.
-    *   The level-started panel.
-    *   The level-paused panel.
-    *   The mission-failed panel.
-    *   The mission-complete panel.
-    *   The game-loaded panel.
-    *   The game-started panel.
-    *   The game-options panel.
+    *   The play-level panel
+    *   The load-level panel.
+    *   The start-level panel.
+    *   The pause-level panel.
+    *   The fail-mission panel.
+    *   The complete-mission panel.
+    *   The load-game panel.
+    *   The start-game panel.
+    *   The configure-game panel.
 *   Do your best to apply the programming conventions explained in the coding standard document, especially the following rules :
     *   Write your types in **UPPER_CASE** : TANK_SHELL.
     *   Write your type members in **PascalCase** : Tank.ShootShell().
@@ -48,9 +49,9 @@ Unity game development test.
     *   Include the class name in the attribute and variable names.
     *   Align braces vertically.
     *   Use braces even for single statement blocks.
-*   On the last evening, simply send us back a pack or archive of your work in progress using a file transfer web service like **wetransfer.com** or **transferbigfiles.com**.
+*   On the last evening, simply send us back a 7Zip archive of your work in progress (Unity project, Windows build) using a file transfer service like **wetransfer.com** or **transferbigfiles.com**.
 
-## Description
+## Game description
 
 The player uses a gamepad to control a futuristic hero equipped with a fully automatic laser gun.
 
@@ -86,12 +87,12 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
         *   Right trigger : **Shoot button**.
         *   Start button (or Escape key) : **Pause button**.
 
-### The **game-loaded** panel
+### The load-game panel
 
 *   Has a game name title.
 *   Has a loading progress bar.
 
-### The game-started panel
+### The start-game panel
 
 *   Has a game name title.
 *   Has a **Start** button, to start a single-player game.
@@ -99,33 +100,33 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 *   Has an **Exit** button, to exit the game.
 *   Plays the **Chrono Storm background music** in a loop.
 
-### The level-paused panel
+### The pause-level panel
 
 *   Has a **Resume** button, to resume the level.
 *   Has a **Restart** button, to restart the level.
-*   Has a **Quit** button, to go back to the game-started panel.
+*   Has a **Quit** button, to go back to the start-game panel.
 *   Appears by pressing the **Pause** button during a game.
 *   Suspends the game.
 *   Can be left by pressing the **Pause** button again.
 
-### The game-options panel
+### The configure-game panel
 
 *   Has a **Music** volume slider
 *   Has a **Sound** Volume slider
 *   Has a **Language (English/French)** pull down menu.
-*   Has a **Back** button, to go back to the game-started panel.
+*   Has a **Back** button, to go back to the start-game panel.
 
-### The **level-loaded** panel
+### The load-level panel
 
 *   Has a level name title.
 *   Has a loading progress bar.
 
-### The level-started panel
+### The start-level panel
 
 *   Has a **5-seconds countdown**.
 *   Plays a beep sound on each second.
 
-### The level-played panel
+### The play-level panel
 
 *   Has a **score counter** starting at **0** near the upper right corner.
 *   Has a **remaining time counter** starting at **3:00** near the middle of the upper edge.
@@ -134,19 +135,19 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 
 *   Plays the **Car Race background music** in a loop.
 
-### The mission-complete menu
+### The complete-mission panel
 
 *   Has a **Mission complete** message.
 *   Has a **Restart** button, to restart the level.
-*   Has a **Quit** button, to go back to the game-started panel.
+*   Has a **Quit** button, to go back to the start-game panel.
 *   Plays a **Jingle Win music** once.
 *   Appears when the score is superior or equal to 1000 or all enemies have been killed.
 
-### The mission-failed panel:
+### The fail-mission panel
 
 *   Has a **Mission failed** message.
 *   Has a **Restart** button, to restart the level.
-*   Has a **Quit** button, to go back to the game-started panel.
+*   Has a **Quit** button, to go back to the start-game panel.
 *   Plays a **Jingle Lost music** once.
 *   Appears when the hero is killed or there is no more remaining time.
 
@@ -185,7 +186,8 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 *   Has a maximum turning speed.
 *   Has a capsule collider.
 *   Has a locomotion blend tree.
-*   Has a state
+*   Has a state.
+*   Screams when he dies.
 
 ### The hero
 
@@ -214,7 +216,8 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 
 ### The hero laser gun muzzle
 
-*   Can shoot a laser ray **5** times per second toward the hero camera target when the Shoot button is used.
+*   Can shoot a laser ray **5** times per second toward the hero camera target when the shoot button is used.
+*   Makes a sound at each shot.
 
 ### The hero laser gun ray
 
@@ -235,6 +238,7 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
     *   a nearby enemy is chasing the hero.
     *   a nearby enemy has been killed.
 *   Randomly attacks the hero when it's close enough, at a maximum frequency of once per **4** seconds.
+*   Screams during an attack.
 
 ### The enemy minimap
 
@@ -247,6 +251,7 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 *   Has an initial health of **50** points.
 *   Can walk forward at **4.5** meters per second.
 *   Can hit the hero with his spear.
+*   Screams during an attack.
 
 ### The footman spear tip
 
@@ -258,6 +263,7 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 *   Has an initial health of **100** points.
 *   Can walk forward at **4.5** meters per second.
 *   Can hit the hero with his axe blade.
+*   Screams during an attack.
 
 ### The grunt axe blade
 
@@ -269,6 +275,7 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 *   Has an initial health of **200** points.
 *   Can walk at **2** meters per second.
 *   Can hit the hero using his fists.
+*   Makes a scream during an attack.
 
 ### The golem fist
 
@@ -284,6 +291,7 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 ### The lich staff tip
 
 *   Can shoot a fireball every 2 seconds.
+*   Makes a sound at each shot.
 
 ### The lich fireball
 
@@ -291,10 +299,11 @@ To win the game, the hero must reach an elimination score of 1000 points in maxi
 *   Has a flame particle effect.
 *   Has an initial speed of **10** meters per second.
 *   Has a direct damage of **25** health points on the hero once per shot.
+*   Makes a sound during its flight.
 
 ## Version
 
-1.3
+1.4
 
 ## Author
 
