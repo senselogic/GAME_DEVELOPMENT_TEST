@@ -9,7 +9,7 @@ Unity game development test.
 ## Instructions
 
 *   Watch the [**reference video**](https://www.youtube.com/watch?v=xqOMwkJBuXE).
-*   Carefully read the game specification and the [**coding standard**](https://github.com/senselogic/KODA).
+*   Carefully read the game specification and the [**coding standard**](https://github.com/senselogic/CODA).
 *   Install the lastest stable version of [**Unity**](https://unity3d.com/fr/get-unity/download) for Windows.
 *   Create a **Unite** 3D project.
 *   Download and import the following assets (and nothing else) :
